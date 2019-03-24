@@ -32,5 +32,4 @@ public class AuthenticationServiceTest extends TestCase {
 		String password = "verma";
 		assertEquals(true, authenticationService.Authenticate(userName,password));
 	}
-
 }
